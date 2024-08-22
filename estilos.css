@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url(nycoco1.jpg);
+}
+
+.caja{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    margin-top: 40px;
+}
+
+img{
+    width: 400px;
+    border-radius: 50px;
+}
+
+img:hover{
+    width: 500px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    transition: 0.5s;
+    border: 5px solid rgba(0, 0, 0, 0.1); 
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 9px rgba(0, 0, 0, 5);
+    margin: 40px;
+}
+
+p:hover{
+    background: linear-gradient(45deg, #6a0dad, #00f2ff);
+    transition: 0.5s;
+}
